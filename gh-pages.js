@@ -3,7 +3,7 @@ import { publish } from 'gh-pages';
 publish(
   'docs', // path to public directory
   {
-    branch: 'docs',
+    branch: 'devlop',
     repo: '49602385+ptsgrn@users.noreply.github.com',
     user: {
       name: 'ptsgrn',
