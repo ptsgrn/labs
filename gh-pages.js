@@ -1,9 +1,9 @@
 import { publish } from 'gh-pages';
 
 publish(
-  'build', // path to public directory
+  'docs', // path to public directory
   {
-    branch: 'gh-pages',
+    branch: 'docs',
     repo: '49602385+ptsgrn@users.noreply.github.com',
     user: {
       name: 'ptsgrn',

@@ -10,8 +10,8 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			pages: 'build',  // path to public directory
-			assets: 'build',  // path to public directory
+			pages: 'docs',  // path to public directory
+			assets: 'docs',  // path to public directory
 			fallback: null
 		})
 	}
