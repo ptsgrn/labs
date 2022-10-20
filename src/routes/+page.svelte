@@ -1,6 +1,5 @@
-
 <script lang="ts">
-  // import { } from 'carbon-components-svelte'
+  // import {  } from 'carbon-components-svelte'
 </script>
 
 <h1>Patsagorn's Code Labs</h1>
