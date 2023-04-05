@@ -1,6 +1,9 @@
 <script lang="ts">
-	import '../app.postcss';
-	import 'carbon-components-svelte/css/g10.css';
+	import '@fontsource/ibm-plex-mono/latin.css'
+	import '@fontsource/ibm-plex-sans-thai'
+	import 'carbon-components-svelte/css/all.css';
+	import { expoIn } from 'svelte/easing';
+	import Home from "carbon-icons-svelte/lib/Home.svelte";
 	import {
 		Header,
 		SkipToContent,
@@ -8,33 +11,24 @@
 		HeaderPanelLink,
 		HeaderPanelDivider,
 		HeaderAction,
-		HeaderPanelLinks,
-		Content
+		Content,
+		HeaderNav,
+		HeaderNavItem,
+		SideNav,
+		SideNavItems,
+		SideNavLink
 	} from 'carbon-components-svelte';
+	let isSideNavOpen = false;
 	let isOpen = false;
 </script>
 
-<header company="PTSGRN">
+<Header company="PTSGRN" bind:isSideNavOpen href="/">
 	<span slot="platform" class="font-mono">Labs</span>
 	<svelte:fragment slot="skip-to-content">
-		<skiptocontent />
+		<SkipToContent />
 	</svelte:fragment>
-	<headerutilities>
-		<headeraction bind:isopen>
-			<headerpanellinks>
-				<headerpaneldivider>Switcher subject 1</headerpaneldivider>
-				<headerpanellink href="about">Switcher item 1</headerpanellink>
-				<headerpaneldivider>Switcher subject 2</headerpaneldivider>
-				<headerpanellink>Switcher item 1</headerpanellink>
-				<headerpanellink>Switcher item 2</headerpanellink>
-				<headerpanellink>Switcher item 3</headerpanellink>
-				<headerpanellink>Switcher item 4</headerpanellink>
-				<headerpanellink>Switcher item 5</headerpanellink>
-			</headerpanellinks>
-		</headeraction>
-	</headerutilities>
-</header>
+</Header>
 
-<content>
+<Content>
 	<slot />
-</content>
+</Content>

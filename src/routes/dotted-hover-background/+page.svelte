@@ -82,19 +82,19 @@
 		user-select: all;
 	}
 	.blob {
-    display: block;
-    width: 75px;
-    height: 75px;
-    position: absolute;
-    z-index: -5;
-    -webkit-background-composite: border;
-    border: 5px solid #333;
-    border-radius: 50%;
-    top: var(--top);
-    left: var(--left);
-    transform: translate(-50%, -50%);
-    background: none;
-  }
+		display: block;
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		z-index: -5;
+		-webkit-background-composite: border;
+		border: 5px solid #333;
+		border-radius: 50%;
+		top: var(--top);
+		left: var(--left);
+		transform: translate(-50%, -50%);
+		background: none;
+	}
 	.bg {
 		--dotsColor: 255 255 255;
 		--bg: radial-gradient(
