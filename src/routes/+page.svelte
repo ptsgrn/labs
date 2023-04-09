@@ -12,4 +12,5 @@
 <p>Since I just start. It is still in progress.</p>
 <UnorderedList>
 	<LabLink href="dotted-hover-background">Dotted Hover Background</LabLink>
+	<LabLink href="sync-todo">Sync Todo</LabLink>
 </UnorderedList>

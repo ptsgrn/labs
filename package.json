@@ -43,6 +43,9 @@
 	"dependencies": {
 		"@fontsource/ibm-plex-mono": "^4.5.13",
 		"@fontsource/ibm-plex-sans-thai": "^4.5.11",
-		"svelte-canvas": "^0.9.3"
+		"@syncedstore/core": "^0.4.3",
+		"@syncedstore/svelte": "^0.4.3",
+		"svelte-canvas": "^0.9.3",
+		"y-webrtc": "^10.2.5"
 	}
 }
