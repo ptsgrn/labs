@@ -18,7 +18,15 @@
 	const store = svelteSyncedStore(todoStore);
 
 	const doc = getYjsValue(todoStore);
-	let webrtcProvider = new WebrtcProvider('todo', doc);
+	let webrtcProvider = new WebrtcProvider('todo', doc, {
+		signaling: [
+			'wss://signaling.yjs.dev',
+			'wss://y-webrtc-signaling-eu.herokuapp.com',
+			'wss://y-webrtc-signaling-us.herokuapp.com'
+		],
+		password: 'todo',
+		maxConns: 20 + Math.floor(Math.random() * 10)
+	});
 
 	const disconnect = () => webrtcProvider.disconnect();
 	const connect = () => webrtcProvider.connect();
