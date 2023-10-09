@@ -4,5 +4,5 @@
 </script>
 
 <ListItem>
-	<a {href}><slot /></a>
+	<a {href} class="hover:bg-blue-500 hover:text-base-100"><slot /></a>
 </ListItem>

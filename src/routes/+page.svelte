@@ -9,8 +9,8 @@
 	Web devlopment.
 </p>
 <h2>Lists</h2>
-<p>Since I just start. It is still in progress.</p>
 <UnorderedList>
 	<LabLink href="dotted-hover-background">Dotted Hover Background</LabLink>
 	<LabLink href="sync-todo">Sync Todo</LabLink>
+	<LabLink href="rock-paper-scissors-tournament">Rock paper scissors tournament</LabLink>
 </UnorderedList>

@@ -1,9 +1,10 @@
 <script lang="ts">
-	import '@fontsource/ibm-plex-mono/latin.css'
-	import '@fontsource/ibm-plex-sans-thai'
+	import '../app.scss';
+	import '../app.postcss';
+	import '@fontsource/ibm-plex-mono/latin.css';
+	import '@fontsource/ibm-plex-sans-thai';
 	import 'carbon-components-svelte/css/all.css';
-	import { expoIn } from 'svelte/easing';
-	import Home from "carbon-icons-svelte/lib/Home.svelte";
+	import Home from 'carbon-icons-svelte/lib/Home.svelte';
 	import {
 		Header,
 		SkipToContent,
