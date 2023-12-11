@@ -231,27 +231,27 @@
 	/>
 </svelte:head>
 
-<svelte:window/>
+<svelte:window />
 
 <div class="container bg-white" bind:this={parentContainer}>
 	<Grid>
 		<Row>
 			<Column>
-			
-	<div
-		on:resize={onContainerResize}
-		bind:this={container}
-		class="relative resize my-3 border-solid h-[80vh] [&>span]:text-xl [&>span]:absolute [&>span]:duration-200
+				<div
+					on:resize={onContainerResize}
+					bind:this={container}
+					class="relative resize my-3 border-solid h-[80vh] [&>span]:text-xl [&>span]:absolute [&>span]:duration-200
 		[&>span]:-m-2 [&>span]:select-none [&>span]:cursor-pointer"
-	>
-		{#each Array(eachCount) as _}
-			{#each emojiList as ptype}
-				<span data-t={ptype}>
-					{emojiName[ptype]}
-				</span>
-			{/each}
-		{/each}
-	</div></Column>
+				>
+					{#each Array(eachCount) as _}
+						{#each emojiList as ptype}
+							<span data-t={ptype}>
+								{emojiName[ptype]}
+							</span>
+						{/each}
+					{/each}
+				</div></Column
+			>
 		</Row>
 		<Row>
 			{#each emojiList as ptype}
