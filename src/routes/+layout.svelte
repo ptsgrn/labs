@@ -1,10 +1,9 @@
 <script lang="ts">
 	import '../app.scss';
 	import '../app.postcss';
+	import 'carbon-components-svelte/css/all.css';
 	import '@fontsource/ibm-plex-mono/latin.css';
 	import '@fontsource/ibm-plex-sans-thai';
-	import 'carbon-components-svelte/css/all.css';
-	import Home from 'carbon-icons-svelte/lib/Home.svelte';
 	import {
 		Header,
 		SkipToContent,

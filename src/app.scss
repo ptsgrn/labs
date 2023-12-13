@@ -1,5 +1,10 @@
 /* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
 
+* {
+  transition: all 0.2s ease;
+  font-family: 'Anuphan', sans-serif;
+}
+
 ::-webkit-scrollbar {
   width: 0.5rem;
 }
@@ -12,4 +17,26 @@
   background: rgb(160, 160, 160);
   border-bottom-right-radius: .5rem;
   border-top-left-radius: .5rem;
+}
+
+// <a> that contain only text
+a:hover {
+  background-color: rgb(15, 98, 254, 0.2);
+}
+
+.prose {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
 }
