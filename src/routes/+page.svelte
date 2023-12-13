@@ -16,7 +16,7 @@
 		<h1>Patsagorn's Code Labs</h1>
 		<p>
 			Welcome to my playground! In here will be mostly my mini project or code that I interested in
-			for Web devlopment.
+			for Web development.
 		</p>
 	</div>
 	<div class="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

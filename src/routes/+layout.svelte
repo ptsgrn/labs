@@ -8,19 +8,9 @@
 	import {
 		Header,
 		SkipToContent,
-		HeaderUtilities,
-		HeaderPanelLink,
-		HeaderPanelDivider,
-		HeaderAction,
 		Content,
-		HeaderNav,
-		HeaderNavItem,
-		SideNav,
-		SideNavItems,
-		SideNavLink
 	} from 'carbon-components-svelte';
 	let isSideNavOpen = false;
-	let isOpen = false;
 </script>
 
 <Header company="PTSGRN" bind:isSideNavOpen href="/">
