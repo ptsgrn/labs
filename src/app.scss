@@ -1,1 +1,15 @@
 /* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #3a3a3a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(160, 160, 160);
+  border-bottom-right-radius: .5rem;
+  border-top-left-radius: .5rem;
+}
